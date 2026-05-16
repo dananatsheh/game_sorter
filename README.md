@@ -9,57 +9,14 @@ A Flutter application that displays video games sorted by platform and shows rec
 - Side drawer navigation
 - Tap any game to see full details and specs
 
-## Screenshots
-> Dark gaming theme with `#be0a81` pink, dark purple, and dark blue accents.
+<img width="1919" height="1003" alt="Screenshot 2026-05-16 014927" src="https://github.com/user-attachments/assets/70e969d9-680c-47d0-a597-bd362ab94668" />
 
-## How to Run
+<img width="1919" height="996" alt="Screenshot 2026-05-16 014939" src="https://github.com/user-attachments/assets/bf266308-280b-469a-8015-7c34c5af5eb8" />
 
-```bash
-flutter pub get
-flutter run
-```
+<img width="1919" height="996" alt="Screenshot 2026-05-16 014954" src="https://github.com/user-attachments/assets/a6b6ba38-97ff-4316-a9cc-41ab6f7738e6" />
 
-## Project Structure
+<img width="1919" height="993" alt="Screenshot 2026-05-16 015004" src="https://github.com/user-attachments/assets/71ff0af3-3c37-4539-9213-ac8af4dcd19c" />
 
-```
-lib/
-├── main.dart               # Entry point
-├── model/
-│   └── game.dart           # Game & LaptopSpecs classes
-├── view/
-│   ├── home_page.dart      # Main screen with game list
-│   └── game_detail_page.dart # Game details & specs screen
-├── components/
-│   ├── game_card.dart      # Reusable game list item
-│   └── custom_drawer.dart  # Side navigation drawer
-└── utils/
-    ├── app_colors.dart     # Color constants
-    └── games_data.dart     # Game data & filter logic
-```
 
-## Upload to GitHub
 
-```bash
-git init
-git add .
-git status
-git commit -m "first commit - Game Sorter Flutter app"
-git remote add origin https://github.com/YOUR_USERNAME/game_sorter.git
-git push -u origin main
-```
 
-## Tech Used
-- Flutter 3.x
-- Dart
-- `google_fonts` package (Orbitron + Rajdhani fonts)
-- Material Design (Dark theme)
-
-## Topics Covered (Assignment Checklist)
-- ✅ MaterialApp
-- ✅ Scaffold
-- ✅ AppBar
-- ✅ Row & Column
-- ✅ Container
-- ✅ Images (Network images for game covers)
-- ✅ Drawer (Custom side navigation)
-- ✅ Good UI Design (Dark gaming aesthetic)
