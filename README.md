@@ -1,4 +1,4 @@
-# 🎮 Game Sorter – Flutter App
+#  Game Sorter – Flutter App
 
 A Flutter application that displays video games sorted by platform and shows recommended laptop specifications for each game.
 
